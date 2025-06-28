@@ -1,0 +1,33 @@
+{
+    "name": "space-tourism",
+    "version": "1.0.0",
+    "description": "A Space Tourism Page",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/olaide-hok/space-tourism.git"
+    },
+    "keywords": [
+        "Next.js"
+    ],
+    "author": "Habeeb Kareem",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/olaide-hok/space-tourism.git/issues"
+    },
+    "homepage": "https://github.com/olaide-hok/space-tourism.git#readme",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "^15.3.4",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "devDependencies": {
+        "eslint": "9.30.0",
+        "eslint-config-next": "15.3.4"
+    }
+}
