@@ -108,6 +108,7 @@ export default function Destination() {
             ))}
 
             <TabList
+                text
                 tabs={tabData}
                 selectedTab={selectedTab}
                 setSelectedTab={setSelectedTab}
@@ -117,6 +118,7 @@ export default function Destination() {
 
             {tabData.map((tab, index) => (
                 <TabPanel
+                    text
                     key={tab.id}
                     tab={tab}
                     isVisible={index === selectedTab}
