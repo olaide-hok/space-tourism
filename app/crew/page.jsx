@@ -1,8 +1,8 @@
 'use client';
 
 import TabImage from '@/components/TabImage';
-import TabListDot from '@/components/TabListDot';
-import TabPanelDot from '@/components/TabPanelDot';
+import TabList from '@/components/TabList';
+import TabPanel from '@/components/TabPanel';
 import {useEffect, useRef, useState} from 'react';
 
 const tabData = [
@@ -90,14 +90,16 @@ export default function CrewPage() {
             </h1>
 
             {tabData.map((tab, index) => (
-                <TabPanelDot
+                <TabPanel
+                    crew
                     key={tab.id}
                     tab={tab}
                     isVisible={index === selectedTab}
                 />
             ))}
 
-            <TabListDot
+            <TabList
+                dot
                 tabs={tabData}
                 selectedTab={selectedTab}
                 setSelectedTab={setSelectedTab}
