@@ -354,6 +354,7 @@ select {
         inset: 0 0 0 30%;
         list-style: none;
         padding: min(20rem, 15vh) 2rem;
+        padding-right: 0;
         margin: 0;
         flex-direction: column;
         transform: translateX(100%);
@@ -365,7 +366,8 @@ select {
     }
 
     .primary-navigation.underline-indicators > .active {
-        border: 0;
+        border-right: 6px solid hsl(var(--clr-white) / 1);
+        border-bottom: 0;
     }
 
     .mobile-nav-toggle {
@@ -696,10 +698,15 @@ body {
     color: hsl(var(--clr-white) / 0.5);
 }
 
+.technology-details p {
+    line-height: 180%;
+}
+
 @media (min-width: 35em) {
     .numbered-title {
         justify-self: start;
         margin-top: 2rem;
+        margin-bottom: 10rem;
     }
 
     .destination-meta {
