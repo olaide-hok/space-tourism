@@ -37,7 +37,7 @@ export default function TabList({
                 role="tablist"
                 aria-label="crew member list"
                 ref={tabListRef}
-                class="dot-indicators flex">
+                className="dot-indicators flex">
                 {tabs.map((tab, index) => (
                     <Tab
                         dot
