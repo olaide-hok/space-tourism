@@ -37,6 +37,7 @@ export default function Navigation() {
                 </div>
 
                 <button
+                    type="button"
                     className="mobile-nav-toggle"
                     aria-controls="primary-navigation"
                     aria-expanded={menuOpen}
