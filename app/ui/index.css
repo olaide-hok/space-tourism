@@ -146,6 +146,10 @@ select {
     display: block;
 }
 
+.d-none {
+    display: none;
+}
+
 .flow > *:where(:not(:first-child)) {
     margin-top: var(--flow-space, 1rem);
 }
