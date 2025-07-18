@@ -1,7 +1,10 @@
 export default function TabImage({tab, tech, isVisible}) {
     if (!tech) {
         return (
-            <picture id={tab.imageId} hidden={!isVisible}>
+            <picture
+                id={tab.id}
+                className={`${isVisible ? 'd-block' : 'd-none'}`}
+                hidden={!isVisible}>
                 <source srcSet={tab.images.webp} type="image/webp" />
                 <img
                     src={tab.images.png}
@@ -14,7 +17,10 @@ export default function TabImage({tab, tech, isVisible}) {
 
     if (tech) {
         return (
-            <picture id={tab.imageId} hidden={!isVisible}>
+            <picture
+                id={tab.id}
+                className={`${isVisible ? 'd-block' : 'd-none'}`}
+                hidden={!isVisible}>
                 <source
                     srcSet={tab.images.portrait}
                     media="(min-width: 720px)"
