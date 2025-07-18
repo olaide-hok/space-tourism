@@ -34,8 +34,8 @@ const tabData = [
         id: 'europa-tab',
         name: 'Europa',
         images: {
-            png: './assets/destination/image-europa.png',
-            webp: './assets/destination/image-europa.webp',
+            png: '/assets/destination/image-europa.png',
+            webp: '/assets/destination/image-europa.webp',
         },
         description:
             'The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.',
@@ -46,8 +46,8 @@ const tabData = [
         id: 'titan-tab',
         name: 'Titan',
         images: {
-            png: './assets/destination/image-titan.png',
-            webp: './assets/destination/image-titan.webp',
+            png: '/assets/destination/image-titan.png',
+            webp: '/assets/destination/image-titan.webp',
         },
         description:
             'The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.',
