@@ -7,7 +7,7 @@ export default function TabPanel({tab, text, crew, tech, isVisible}) {
                 id={tab.id}
                 tabIndex="0"
                 role="tabpanel">
-                <h2 className="fs-800 uppercase ff-serif">Moon</h2>
+                <h2 className="fs-800 uppercase ff-serif">{tab.name}</h2>
 
                 <p>{tab.description}</p>
 
